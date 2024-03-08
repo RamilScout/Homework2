@@ -1,25 +1,69 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        var box = 5;
-        System.out.println(box);
-        System.out.println("Hello world");
-        var capacityleft = 40;
-        System.out.println("Можно положить " + capacityleft + " кг вещей");
-        var a = 4;
-        var b = 5;
+        var dog = 8.0;
+        System.out.println(dog);
+        var cat = 3.6;
+        System.out.println(cat);
+        var paper = 763789;
+        System.out.println(paper);
 
-        var result1 = a + b;
-        var result2 = a * b;
-        var result3 = a / b;
-        var result = a / 2 * b;
-        System.out.println(result1);
-        System.out.println(result2);
-        System.out.println(result3);
-        System.out.println(result);
+        dog = dog + 4;
+        System.out.println(dog);
+        cat = cat + 4;
+        System.out.println(cat);
+        paper = paper + 4;
+        System.out.println(paper);
 
-        var name = "Рамиль";
-        System.out.println("Меня зовут " + name + " и мне " + 31 + " год");
+        dog = dog - 3.5;
+        System.out.println(dog);
+        cat = cat - 1.6;
+        System.out.println(cat);
+        paper = paper - 7639;
+        System.out.println(paper);
+
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+
+        var boxerRussia = 78.2;
+        System.out.println(boxerRussia);
+        var boxerCanada = 82.7;
+        System.out.println(boxerCanada);
+        var result = boxerRussia + boxerCanada;
+        System.out.println(" boxerRussia + boxerCanada = " + result);
+        var result1 = boxerCanada - boxerRussia;
+        System.out.println("boxerCanada - boxerRussia = " + result1);
+
+        var x = 500;
+        System.out.println(x);
+        var y = 50;
+        System.out.println(y);
+        var h = x % y;
+        System.out.println(h);
+
+        var jobEmpl0yee = 640;
+        var hourEmployee = 8;
+        var employee = jobEmpl0yee / hourEmployee;
+        System.out.println(" Всего работников в компании - " + employee + " человек");
+        employee = employee + 94;
+        System.out.println(employee);
+        hourEmployee = jobEmpl0yee / employee;
+        System.out.println(hourEmployee);
+        System.out.println("Если в компании работает " + employee + " человека, то всего " + hourEmployee + " часа работы могут быть поделены между сотрудниками");
+
+
 
 
     }
