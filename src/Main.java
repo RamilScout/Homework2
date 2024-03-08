@@ -22,8 +22,5 @@ public class Main {
         System.out.println("Меня зовут " + name + " и мне " + 31 + " год");
 
 
-
-
-
     }
 }
